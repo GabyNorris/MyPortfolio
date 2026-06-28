@@ -1,5 +1,4 @@
 import React from "react";
-import ThemeController from "./ThemeController";
 
 /* 
 .theme-toggle{
@@ -47,7 +46,7 @@ const Navbar = () => {
   </div>
   
 </nav> */}
-      <div className="navbar  p-1 bg-base-100">
+      <div className="navbar border-bottom border-[0.5px] border-[var(--border)] backdrop-blur-[18px] transition-all duration-500  p-1 bg-base-100">
         <div className=" w-full flex flex-row items-center justify-between ">
           <div className="">
             <a className="btn btn-ghost normal-case text-xl">Gaby Norris</a>
