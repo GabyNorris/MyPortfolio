@@ -42,7 +42,8 @@ module.exports = {
           "base-300": "#edeaff",         // --bg-raised
           
           // Text styling mapping
-          "base-content": "#1a1630",     // --text-1
+          "--text-1": "#1a1630",     // --text-1
+          "--text-3": "#8a85b0",   // --text-3
 
           // Custom variable injections for borders & glows to use in classes via style arbitrary values if needed
           "--border": "rgba(95,91,175,0.12)",
@@ -62,7 +63,9 @@ module.exports = {
           "base-300": "#1d1935",         // --bg-raised
           
           // Text styling mapping
-          "base-content": "#ede9ff",     // --text-1
+          "--text-1": "#ede9ff",     // --text-1
+          "--text-3": "#7b739e",   // --text-3
+
 
           // Custom variable injections
           "--border": "rgba(186,159,225,0.12)",

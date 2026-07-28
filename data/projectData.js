@@ -249,8 +249,8 @@ ProjectData: [
     promoMedia: { type: "video", url: "..." },
     scenario: "Module brief",
     tagline: "Your Local AI Companion",
-    shortDescription: "...",
-    fullDescription: "Nia, Swahili for purpose or intention. Your intuitive AI assistant armed with biometric tracking, your wearable AI assistant. Let your productivity thrive as you capture thoughts, self-regulate workflows, and dive into seamless deep focus.",
+    shortDescription: "Nia, Swahili for purpose or intention. Your intuitive AI assistant armed with biometric tracking, your wearable AI assistant. Let your productivity thrive as you capture thoughts, self-regulate workflows, and dive into seamless deep focus.",
+    fullDescription: "",
     actions: [
       { label: "Figma Prototype", icon: "figma", url: "https://figma.com/..." },
     ],
@@ -344,6 +344,12 @@ PageContent: [
     description: "Whether you have a freelance brief, an opportunity to share, or just want to say hello, I'd love to hear from you.",
     media: { type: "icon", name: "envelope" },
   },
+  {
+    id: "content-007",
+    title: "Voiceover",
+    description:"Hi I'm Gaby Norris, a third-year student at Open Window and aspiring developer. Let's get down and personal about who I am, what I do, and why I do it. First and foremost, I am a problem solver, who enjoys creating new things and finding ways to improve already exisiting solutions. I'm curious about lots of things, always aiming to learn more and grow my skills. I am passionate about technology and how its made the world a smaller place, keeping everyone connected. As a UX designer, I have a deeper understand of how users interact with technology and how to create for different audiences. I work well in a team, enjoying learning from others and collaborating to create the best possible outcome. I am excited to continue developing my skills and contributing to the tech industry in meaningful ways. Once again I am Gaby Norris, enjoy exploring what I've been building for the last 2 years and I hope you like what you see. Thank you for taking the time to get to know me.",
+    media: { type: "audio", url: "/audio/voiceover.mp3" },
+  }
 ];
 
 confidenceRating: [
